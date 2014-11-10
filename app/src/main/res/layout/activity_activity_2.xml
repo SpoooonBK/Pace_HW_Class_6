@@ -1,0 +1,47 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ff4fff52"
+    android:baselineAligned="false"
+    android:weightSum="1"
+    android:clickable="true"
+    android:id="@+id/layout_2"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_number_two"
+        android:layout_weight="0.80" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/activity2_TextView"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageButton
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button_execute"
+        android:id="@+id/button_execute"
+        android:layout_gravity="center_horizontal"
+        android:clickable="false"
+        android:background="@android:color/transparent"
+        android:layout_weight="0.07" />
+
+    <ImageButton
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button_timer"
+        android:id="@+id/button_timer"
+        android:layout_gravity="center_horizontal"
+        android:clickable="false"
+        android:background="@android:color/transparent"
+        android:layout_weight="0.07" />
+
+</LinearLayout>

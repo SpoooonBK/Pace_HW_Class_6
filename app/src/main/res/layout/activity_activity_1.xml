@@ -1,0 +1,29 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ff00d6ff"
+    android:baselineAligned="false"
+    android:weightSum="1"
+    android:clickable="true"
+    android:id="@+id/layout_1"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_number_one"
+        android:layout_weight="0.80" />
+
+    <ImageButton
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/button_next"
+        android:id="@+id/button_next"
+        android:layout_gravity="center_horizontal"
+        android:clickable="false"
+        android:background="@android:color/transparent"
+        android:layout_weight="0.07" />
+
+</LinearLayout>
